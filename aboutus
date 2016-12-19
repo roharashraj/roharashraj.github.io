@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Roharashraj&trade; - Home page
+</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+<div class="container">
+<hgroup>
+<h2>Roharashraj&trade;</h2>
+<h4>www.roharashraj.com</h4>
+</hgroup>
+<nav>
+<a>Home</a>
+<a>About us</a>
+</div>
+</header>
+<main>
+<div class="container">
+</div>
+</main>
+<footer>
+<div class="container">
+<small>Copyright &copy; Roharashraj&trade;</small>
+</div>
+</footer>
+</body>
+</html>
