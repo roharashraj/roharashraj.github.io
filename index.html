@@ -29,26 +29,25 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <!-- <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li> -->
-                        <!-- <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li> -->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Projects
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item btn" data-bs-toggle="modal"
+                                    data-bs-target="#proj1">Linux Server Scripts</a></li>
+                                    <!-- <li><hr class="dropdown-divider"></li> -->
+                                <!-- <li><a class="dropdown-item" href="#">Another action</a></li> -->
+                                <!-- <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -60,7 +59,7 @@
             <div class="container-fluid py-5">
                 <h1 class="display-4 fw-bold">Hello World!</h1>
                 <h4>I'm Rohan Vaidya</h4>
-                <!-- <button class="btn btn-primary btn-lg" type="button">Download Resume</button> -->
+                <!-- <button class="btn btn-primary btn-lg" type="button" aria-disabled="true" disabled="true">Download Resume</button> -->
             </div>
         </div>
 
@@ -168,6 +167,84 @@
             </li>
         </ul>
     </footer>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="proj1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Linux Server Scripts</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    A collection of Linux servers shell scripts for automating system admin task. Currently we are targeting Ubuntu Server 22.x LTS.
+                    <br />
+                    <ol>
+                        <li>Update/Upgrade</li>
+                        <li>NodeJS</li>
+                        <li>Kubernetes Minikube (Comming soon...)</li>
+                        <!-- <li>Docker (Comming soon)</li> -->
+                    </ol>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal"><a class="nav-link p-0 m-0" href="https://github.com/roharashraj/linux-server-scripts" target="_blank" role="button">View Project</a></button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+    <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog"
+        id="proj1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content rounded-4 shadow">
+                <div class="modal-body p-5">
+                    <h2 class="fw-bold mb-0">What's new</h2>
+
+                    <ul class="d-grid gap-4 my-5 list-unstyled small">
+                        <li class="d-flex gap-4">
+                            <svg class="bi text-body-secondary flex-shrink-0" width="48" height="48">
+                                <use xlink:href="#grid-fill" />
+                            </svg>
+                            <div>
+                                <h5 class="mb-0">Grid view</h5>
+                                Not into lists? Try the new grid view.
+                            </div>
+                        </li>
+                        <li class="d-flex gap-4">
+                            <svg class="bi text-warning flex-shrink-0" width="48" height="48">
+                                <use xlink:href="#bookmark-star" />
+                            </svg>
+                            <div>
+                                <h5 class="mb-0">Bookmarks</h5>
+                                Save items you love for easy access later.
+                            </div>
+                        </li>
+                        <li class="d-flex gap-4">
+                            <svg class="bi text-primary flex-shrink-0" width="48" height="48">
+                                <use xlink:href="#film" />
+                            </svg>
+                            <div>
+                                <h5 class="mb-0">Video embeds</h5>
+                                Share videos wherever you go.
+                            </div>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-primary mt-5 w-100" data-bs-dismiss="modal">Great,
+                        thanks!</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
 </body>
 
 </html>
